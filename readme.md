@@ -37,3 +37,6 @@ Example of setting up client hints on webs that are using multiple origin, like 
 - [Cross-origin client hints are currently not working on stable Chrome](https://cloudinary.com/blog/client_hints_and_responsive_images_what_changed_in_chrome_67). For now, to try this you need to use Chrome Canary (I used version 86).
 - More details on the infrastructure can be read in the [Client Hints Infrastructure repo](https://github.com/WICG/client-hints-infrastructure)
 - For Chrome on Android, `DPR` and `Viewport-Width` are still working based on [the discussion here](https://groups.google.com/a/chromium.org/g/blink-dev/c/8RBFue7RMXQ/m/x5ogQm7oBgAJ)
+- Seems like crossorigin client-hints (via `Feature-Policy`) will be enabled in Chrome 84 🎉.
+  - https://chromium-review.googlesource.com/c/chromium/src/+/2199266
+  - https://mpulp.mobi/2020/05/20/client-hints-and-feature-policies/
