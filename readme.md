@@ -30,8 +30,7 @@ Example of setting up client hints on webs that are using multiple origin, like 
   - If `2g`, you will get 300x300 image
   - If the browser doesn't sent `ECT` header (in unsupported browsers), you will get 500x500 image
 
-- In `web-server.js`, if you omit `Feature-Policy` header, browser will only send client hint for same-origin requests (localhost:3000 in this case). If you do this, you should see that the image wil be 500x5
-00 again, because no client hints are sent to `localhost:3001` (where the images are hosted)
+- In `web-server.js`, if you omit `Feature-Policy` header, browser will only send client hint for same-origin requests (localhost:3000 in this case). If you do this, you should see that the image wil be 500x500 again, because no client hints are sent to `localhost:3001` (where the images are hosted)
 
 
 ## Notes
