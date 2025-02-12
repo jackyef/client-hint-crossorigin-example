@@ -5,7 +5,7 @@
   "author": "Jacky Efendi <jacky.efendi1@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "koa": "^2.13.0",
+    "koa": "^2.15.4",
     "koa-send": "^5.0.0"
   }
 }
